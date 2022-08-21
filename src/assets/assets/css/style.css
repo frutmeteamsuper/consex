@@ -629,10 +629,10 @@ textarea:focus,
 }
 
 .checkbox-boxed + .checkbox-lable .image-boxed {
-  height: 80px;
-  line-height: 78px;
+  height: 150px;
+  line-height: 150px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 100%;
   overflow: hidden;
   position: relative;
   display: block;
@@ -817,9 +817,9 @@ textarea:focus,
 
 .card .card-footer {
   border: 0;
-  border-radius: 0 0 15px 15px;
-  background: transparent;
-  padding: 10px 15px;
+  border-radius: 0 0 30px 30px;
+  background: #ff3d0094;
+  padding: 10px 10px;
 }
 
 .card .card-body-wrap {
@@ -909,9 +909,11 @@ textarea:focus,
 }
 
 .product-card-large .product-image-large {
-  border-radius: 15px;
+
+  border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   overflow: hidden;
-  height: 150px;
+  height: 250px;
   width: 100%;
   display: block;
   position: relative;
@@ -1724,7 +1726,7 @@ textarea:focus,
 }
 
 .btn.btn-danger {
-  background-color: #dc2228;
+  background-color: #ea7074bd;
   box-shadow: 0 3px 10px rgba(255, 151, 181, 0.5);
   -webkit-box-shadow: 0 3px 10px rgba(255, 151, 181, 0.5);
   -moz-box-shadow: 0 3px 10px rgba(255, 151, 181, 0.5);
@@ -1885,7 +1887,7 @@ body.darkmode .text-dark {
 }
 
 body.darkmode .text-secondary {
-  color: #aaaaaa !important;
+  color: #fff !important;
 }
 
 body.darkmode .text-dark svg path,
